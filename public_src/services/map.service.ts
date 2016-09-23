@@ -19,6 +19,8 @@ export class MapService {
             	attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
             })
         };
+
+        const markers = new L.MarkerClusterGroup();
     }
 
     disableMouseEvent(tag: string) {
