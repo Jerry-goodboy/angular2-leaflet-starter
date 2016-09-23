@@ -1,12 +1,10 @@
 /// <reference path="./typings/require.d.ts"/>
 
 import 'leaflet';
+import 'leaflet-markercluster';
 import 'zone.js/dist/zone';
 import 'zone.js/dist/long-stack-trace-zone';
 import 'reflect-metadata';
-
-require('../node_modules/leaflet-markercluster/leaflet.markercluster.js');
-require('../node_modules/leaflet-markercluster/MarkerCluster.css');
 
 require('../node_modules/bootstrap/dist/css/bootstrap.css');
 require('../node_modules/font-awesome/css/font-awesome.css');
